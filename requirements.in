@@ -3,6 +3,7 @@
 -e file:clickhouse
 -e file:core
 -e file:compose
+-e file:cosmosdb
 -e file:elasticsearch
 -e file:google
 -e file:kafka
@@ -21,6 +22,7 @@
 -e file:rabbitmq
 -e file:redis
 -e file:selenium
+-e file:toxiproxy
 cryptography<37
 flake8<3.8.0  # 3.8.0 adds a dependency on importlib-metadata which conflicts with other packages.
 pg8000
